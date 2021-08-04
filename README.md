@@ -12,12 +12,12 @@ Repositório para a Live Coding do dia 05/08/2021
 
 - Criar repositório IPFS: ```ipfs init```
 - Iniciar o IPFS Daemon: ```ipfs daemon```
-- Enviando uma imagem para o IPFS: ```ipfs add <file.ext>```
-  - Copiar o hash gerado e concatenar à seguinte URL: https://ipfs.io/ipfs/ no arquivo dioNFT.json (Ex: https://ipfs.io/ipfs/<ipfs_hash>)
-- Enviar o arquivo dioNFT.json para o IPFS: ```ipfs add dioNFT.json```
+- Enviando uma imagem para o IPFS: ```ipfs add <DIONFT.png>```
+  - Copiar o hash gerado e concatenar à seguinte URL: https://ipfs.io/ipfs/ no arquivo *DIONFT.json* (Ex: https://ipfs.io/ipfs/<ipfs_hash>)
+- Enviar o arquivo *DIONFT.json* para o IPFS: ```ipfs add DIONFT.json```
 
 ## Desenvolvendo o smart contract
 
  - Abrir o Remix IDE em https://remix.ethereum.org/
- - Na pasta Contrats, criar um novo arquivo chamado dioNFT.sol e copiar e colar o conteúdo do arquivo DIONFT.sol
+ - Na pasta *contracts*, criar um novo arquivo chamado *DIONFT.sol* e copiar e colar o conteúdo do arquivo *DIONFT.sol* deste repositório
  - Compilar e realizar o deploy em testnet.
